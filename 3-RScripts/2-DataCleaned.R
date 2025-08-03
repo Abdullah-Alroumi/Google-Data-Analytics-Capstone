@@ -2,7 +2,6 @@ library(tidyverse)
 library(lubridate)
 library(janitor)
 
-# Set working directory
 setwd("C:/Users/Abdul/Desktop/Google Prject Data")
 
 # =============================================================================
@@ -202,3 +201,4 @@ cat("Next step: Exploratory and statistical analysis\n")
 # View sample of main dataset
 cat("\nSample of main dataset:\n")
 print(head(main_dataset))
+
